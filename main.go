@@ -24,4 +24,11 @@ func main() {
 	fmt.Println("Start recursion for 5 elements slice")
 	y := algorithms.Recursion_count([]int{1, 2, 3, 4, 5})
 	fmt.Printf("Count elements = %d\n", y)
+
+	fmt.Println()
+	fmt.Println("Start merge sort for slice")
+	z := []int{5, 11, 56, 1, 0, 58, 5, 1, 2, 4, 2, 9}
+	fmt.Println(z)
+	z = algorithms.Merge_sort(z)
+	fmt.Printf("Sorted slice - %v\n", z)
 }
