@@ -14,4 +14,9 @@ func main() {
 	fmt.Println()
 	fmt.Println("Start selection sort")
 	algorithms.Selection_sort()
+
+	fmt.Println()
+	fmt.Println("Start recursion for num 5")
+	x := algorithms.Recursion_factorial(5)
+	fmt.Printf("10! = %d\n", x)
 }
