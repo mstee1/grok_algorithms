@@ -38,4 +38,7 @@ func main() {
 	fmt.Println(z)
 	z = algorithms.Quick_sort(z)
 	fmt.Printf("Sorted slice - %v\n", z)
+
+	fmt.Println()
+	algorithms.Breadth_first_search()
 }
