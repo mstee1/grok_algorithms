@@ -31,4 +31,11 @@ func main() {
 	fmt.Println(z)
 	z = algorithms.Merge_sort(z)
 	fmt.Printf("Sorted slice - %v\n", z)
+
+	fmt.Println()
+	fmt.Println("Start quick sort for slice")
+	z = []int{5, 11, 56, 1, 0, 58, 5, 1, 2, 4, 2, 9}
+	fmt.Println(z)
+	z = algorithms.Quick_sort(z)
+	fmt.Printf("Sorted slice - %v\n", z)
 }
